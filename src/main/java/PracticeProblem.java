@@ -17,7 +17,7 @@ public static void selectionSortName(String[] name, int[] ages){
 	name[x]=tempName;
 	int tempAges=ages[small];
 	ages[small]=ages[x];
-	ages[x]=tempAge;
+	ages[x]=tempAges;
 			
 		}
 
