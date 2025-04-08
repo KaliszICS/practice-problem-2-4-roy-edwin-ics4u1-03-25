@@ -13,7 +13,7 @@ public static void selectionSortName(String[] name, int[] ages){
 		}
 	}
 	String tempName=name[small];
-	name[small]=name[i];
+	name[small]=name[x];
 	name[x]=tempName;
 	int tempAges=ages[small];
 	ages[small]=ages[x];
@@ -26,7 +26,7 @@ public static void selectionSortAge(String[] name, int[] ages){
 	int small=0;
 	for (int x=0; x<ages.length-1;x++){
 	for (int y=x+1; y<ages.length;y++){
-	if(ages[small]>ages[j]){
+	if(ages[small]>ages[y]){
 	small=y;
 		}
 	}
